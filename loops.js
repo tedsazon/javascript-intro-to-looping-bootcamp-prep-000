@@ -18,11 +18,14 @@ function whileLoop(n) {
   return 'done'
 }
 
-var l = 0
-function incrementVariable() {
-  l = l - 1
+function doWhileLoop(array) {
+  function maybeTrue() {
+    return Math.random() >= 0
+  }
 }
 
-function doWhileLoop(array) {
-  do (array.length > 0 $$ incrementVariable() = newArray
-} {return newArray}
+do {
+  array.pop()
+} while (array.length > -1 && maybeTrue())
+  
+}
