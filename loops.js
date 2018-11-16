@@ -9,7 +9,7 @@ function forLoop(array) {
   return array
 }
 
-let countdown = 100
+let countdown = n
 function whileLoop(n) {
   while (countdown > 0) {
     console.log.reset()
